@@ -12,7 +12,7 @@ export default function FAQ() {
   const faqs: FAQItem[] = [
     {
       question: 'Is this really free?',
-      answer: 'Yes. There is no upfront cost to your organization. Our work is funded through new local business support connected to the event.',
+      answer: 'Yes. There is no cost to your organization. Our work is funded through new local business support connected to the event.',
     },
     {
       question: 'Do you contact our existing sponsors?',
