@@ -6,7 +6,7 @@ export default function Problem() {
           <div className="relative z-10">
             <div className="text-center mb-8 sm:mb-10">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#131722] mb-4 sm:mb-5 leading-tight">
-                Charity golf tournaments a LOT of work.
+                Running a charity golf tournament is a LOT of work.
               </h2>
               <div className="w-20 sm:w-24 h-1 bg-[#1E8E3E] mx-auto"></div>
             </div>
