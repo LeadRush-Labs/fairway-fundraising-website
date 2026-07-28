@@ -46,7 +46,7 @@ export default function WhatWeHelpWith() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-10 sm:mb-12 md:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#131722] mb-3 sm:mb-4">
-            We help with the work that makes your tournament feel bigger and run smoother.
+            We make your tournament feel bigger and run smoother.
           </h2>
           <div className="w-16 sm:w-20 h-1 bg-[#1E8E3E] mx-auto"></div>
         </div>
