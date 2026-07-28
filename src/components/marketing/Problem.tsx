@@ -6,7 +6,7 @@ export default function Problem() {
           <div className="relative z-10">
             <div className="text-center mb-8 sm:mb-10">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#131722] mb-4 sm:mb-5 leading-tight">
-                Most charity golf tournaments are run by people who already have too much on their plate.
+                Charity golf tournaments a LOT of work.
               </h2>
               <div className="w-20 sm:w-24 h-1 bg-[#1E8E3E] mx-auto"></div>
             </div>
@@ -17,7 +17,7 @@ export default function Problem() {
                   You have to manage golfers, sponsors, registration, volunteers, emails, payments, event details, and donor communication.
                 </p>
                 <p>
-                  The tournament matters, but the marketing and admin work can quickly become overwhelming.
+                  The marketing and admin is overwhelming.
                 </p>
                 <p className="font-semibold text-[#131722] text-base sm:text-lg md:text-xl">
                   Fairway Fundraising takes that work off your plate.
