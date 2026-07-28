@@ -14,7 +14,7 @@ export default function Problem() {
             <div className="max-w-2xl mx-auto">
               <div className="text-base sm:text-lg md:text-xl text-[#5D5A6A] leading-relaxed space-y-6 sm:space-y-8 text-center">
                 <p>
-                  You have to manage golfers, sponsors, registration, volunteers, social media, signage, emails, payments, event details, and donor communication.
+                  You have to manage golfers, sponsors, registration, volunteers, emails, payments, event details, and donor communication.
                 </p>
                 <p>
                   The tournament matters, but the marketing and admin work can quickly become overwhelming.
