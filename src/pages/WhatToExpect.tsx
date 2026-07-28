@@ -19,21 +19,31 @@ export default function WhatToExpect() {
     <div className="min-h-screen bg-white">
       <section className="relative overflow-hidden bg-gradient-to-br from-[#1E8E3E] via-[#1E8E3E] to-[#146B2E] py-16 sm:py-20 md:py-24">
         <div className="absolute inset-0 opacity-10">
-          <svg className="absolute top-10 left-10 w-20 h-20 text-white animate-pulse" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+          <svg className="absolute top-10 left-10 w-20 h-20 text-white animate-pulse" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="40" fill="currentColor" stroke="white" strokeWidth="3"/>
+            <circle cx="35" cy="35" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="50" cy="30" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="65" cy="35" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="30" cy="50" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="70" cy="50" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="50" cy="50" r="3" fill="white" fillOpacity="0.6"/>
           </svg>
-          <svg className="absolute top-20 right-20 w-16 h-16 text-white animate-bounce" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+          <svg className="absolute top-20 right-20 w-16 h-16 text-white animate-bounce" viewBox="0 0 100 100">
+            <line x1="50" y1="10" x2="50" y2="90" stroke="currentColor" strokeWidth="5"/>
+            <path d="M50 10 L85 25 L50 40 Z" fill="currentColor"/>
+            <circle cx="50" cy="90" r="5" fill="currentColor"/>
           </svg>
-          <svg className="absolute bottom-10 left-1/4 w-24 h-24 text-white animate-pulse" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+          <svg className="absolute bottom-10 left-1/4 w-24 h-24 text-white animate-pulse" viewBox="0 0 100 100">
+            <line x1="50" y1="50" x2="50" y2="85" stroke="currentColor" strokeWidth="5"/>
+            <path d="M40 50 L60 50 L55 85 L45 85 Z" fill="currentColor"/>
+            <circle cx="50" cy="35" r="20" fill="currentColor" stroke="white" strokeWidth="2"/>
           </svg>
-          <svg className="absolute bottom-20 right-1/3 w-14 h-14 text-white" fill="currentColor" viewBox="0 0 24 24">
-            <circle cx="12" cy="12" r="3"/>
-            <circle cx="12" cy="4" r="2"/>
-            <circle cx="12" cy="20" r="2"/>
-            <circle cx="4" cy="12" r="2"/>
-            <circle cx="20" cy="12" r="2"/>
+          <svg className="absolute bottom-20 right-1/3 w-14 h-14 text-white" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="40" fill="currentColor" stroke="white" strokeWidth="3"/>
+            <circle cx="35" cy="35" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="50" cy="30" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="65" cy="35" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="50" cy="50" r="3" fill="white" fillOpacity="0.6"/>
           </svg>
         </div>
 
@@ -58,13 +68,23 @@ export default function WhatToExpect() {
       <section className="relative py-12 sm:py-16 md:py-20 bg-gradient-to-b from-[#F5F5F7] to-white overflow-hidden">
         <div className="absolute inset-0 opacity-5">
           <svg className="absolute top-10 right-10 w-32 h-32 text-[#1E8E3E]" viewBox="0 0 100 100">
-            <circle cx="50" cy="50" r="40" fill="currentColor"/>
+            <circle cx="50" cy="50" r="40" fill="currentColor" stroke="#1E8E3E" strokeWidth="3"/>
+            <circle cx="35" cy="35" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="50" cy="30" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="65" cy="35" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="30" cy="50" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="70" cy="50" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="50" cy="50" r="3" fill="white" fillOpacity="0.6"/>
           </svg>
           <svg className="absolute bottom-20 left-10 w-40 h-40 text-[#1E8E3E]" viewBox="0 0 100 100">
-            <polygon points="50,10 90,90 10,90" fill="currentColor"/>
+            <line x1="50" y1="10" x2="50" y2="90" stroke="currentColor" strokeWidth="5"/>
+            <path d="M50 10 L85 25 L50 40 Z" fill="currentColor"/>
+            <circle cx="50" cy="90" r="5" fill="currentColor"/>
           </svg>
           <svg className="absolute top-1/3 left-1/4 w-24 h-24 text-[#1E8E3E]" viewBox="0 0 100 100">
-            <rect x="10" y="10" width="80" height="80" fill="currentColor"/>
+            <line x1="50" y1="50" x2="50" y2="85" stroke="currentColor" strokeWidth="5"/>
+            <path d="M40 50 L60 50 L55 85 L45 85 Z" fill="currentColor"/>
+            <circle cx="50" cy="35" r="20" fill="currentColor"/>
           </svg>
         </div>
 
@@ -139,10 +159,16 @@ export default function WhatToExpect() {
       <section className="relative py-12 sm:py-16 bg-gradient-to-br from-[#131722] to-[#2A2D3A] overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <svg className="absolute top-10 left-10 w-32 h-32 text-white" viewBox="0 0 100 100">
-            <circle cx="50" cy="50" r="40" fill="currentColor"/>
+            <circle cx="50" cy="50" r="40" fill="currentColor" stroke="white" strokeWidth="3"/>
+            <circle cx="35" cy="35" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="50" cy="30" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="65" cy="35" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="50" cy="50" r="3" fill="white" fillOpacity="0.6"/>
           </svg>
           <svg className="absolute bottom-10 right-10 w-40 h-40 text-white rotate-45" viewBox="0 0 100 100">
-            <rect x="20" y="20" width="60" height="60" fill="currentColor" rx="8"/>
+            <line x1="50" y1="10" x2="50" y2="90" stroke="currentColor" strokeWidth="5"/>
+            <path d="M50 10 L85 25 L50 40 Z" fill="currentColor"/>
+            <circle cx="50" cy="90" r="5" fill="currentColor"/>
           </svg>
         </div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
@@ -158,10 +184,18 @@ export default function WhatToExpect() {
       <section className="relative py-12 sm:py-16 md:py-20 bg-white overflow-hidden">
         <div className="absolute inset-0 opacity-[0.03]">
           <svg className="absolute top-1/4 right-20 w-48 h-48 text-[#1E8E3E] rotate-12" viewBox="0 0 100 100">
-            <rect x="20" y="20" width="60" height="60" fill="currentColor" rx="10"/>
+            <circle cx="50" cy="50" r="40" fill="currentColor" stroke="#1E8E3E" strokeWidth="3"/>
+            <circle cx="35" cy="35" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="50" cy="30" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="65" cy="35" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="30" cy="50" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="70" cy="50" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="50" cy="50" r="3" fill="white" fillOpacity="0.6"/>
           </svg>
           <svg className="absolute bottom-1/4 left-20 w-56 h-56 text-[#1E8E3E] -rotate-12" viewBox="0 0 100 100">
-            <circle cx="50" cy="50" r="45" fill="currentColor"/>
+            <line x1="50" y1="10" x2="50" y2="90" stroke="currentColor" strokeWidth="5"/>
+            <path d="M50 10 L85 25 L50 40 Z" fill="currentColor"/>
+            <circle cx="50" cy="90" r="5" fill="currentColor"/>
           </svg>
         </div>
 
@@ -412,10 +446,16 @@ export default function WhatToExpect() {
       <section className="relative py-12 sm:py-16 md:py-20 bg-[#F5F5F7] overflow-hidden">
         <div className="absolute inset-0 opacity-5">
           <svg className="absolute top-10 left-1/3 w-32 h-32 text-[#1E8E3E]" viewBox="0 0 100 100">
-            <polygon points="50,10 90,40 75,90 25,90 10,40" fill="currentColor"/>
+            <line x1="50" y1="10" x2="50" y2="90" stroke="currentColor" strokeWidth="5"/>
+            <path d="M50 10 L85 25 L50 40 Z" fill="currentColor"/>
+            <circle cx="50" cy="90" r="5" fill="currentColor"/>
           </svg>
           <svg className="absolute bottom-10 right-1/4 w-40 h-40 text-[#1E8E3E] rotate-45" viewBox="0 0 100 100">
-            <rect x="30" y="30" width="40" height="40" fill="currentColor"/>
+            <circle cx="50" cy="50" r="40" fill="currentColor" stroke="#1E8E3E" strokeWidth="3"/>
+            <circle cx="35" cy="35" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="50" cy="30" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="65" cy="35" r="3" fill="white" fillOpacity="0.6"/>
+            <circle cx="50" cy="50" r="3" fill="white" fillOpacity="0.6"/>
           </svg>
         </div>
 
@@ -454,10 +494,16 @@ export default function WhatToExpect() {
           <div className="relative bg-gradient-to-br from-[#1E8E3E] to-[#146B2E] rounded-2xl p-8 sm:p-10 md:p-12 shadow-xl text-white overflow-hidden">
             <div className="absolute inset-0 opacity-10">
               <svg className="absolute top-5 right-5 w-24 h-24 text-white rotate-12" viewBox="0 0 100 100">
-                <path d="M50 10 L90 30 L90 70 L50 90 L10 70 L10 30 Z" fill="currentColor"/>
+                <circle cx="50" cy="50" r="40" fill="currentColor" stroke="white" strokeWidth="3"/>
+                <circle cx="35" cy="35" r="3" fill="white" fillOpacity="0.6"/>
+                <circle cx="50" cy="30" r="3" fill="white" fillOpacity="0.6"/>
+                <circle cx="65" cy="35" r="3" fill="white" fillOpacity="0.6"/>
+                <circle cx="50" cy="50" r="3" fill="white" fillOpacity="0.6"/>
               </svg>
               <svg className="absolute bottom-5 left-5 w-20 h-20 text-white -rotate-12" viewBox="0 0 100 100">
-                <path d="M50 10 L90 30 L90 70 L50 90 L10 70 L10 30 Z" fill="currentColor"/>
+                <line x1="50" y1="10" x2="50" y2="90" stroke="currentColor" strokeWidth="5"/>
+                <path d="M50 10 L85 25 L50 40 Z" fill="currentColor"/>
+                <circle cx="50" cy="90" r="5" fill="currentColor"/>
               </svg>
             </div>
 
