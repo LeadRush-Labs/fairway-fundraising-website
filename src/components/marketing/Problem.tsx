@@ -14,10 +14,10 @@ export default function Problem() {
             <div className="max-w-2xl mx-auto">
               <div className="text-base sm:text-lg md:text-xl text-[#5D5A6A] leading-relaxed space-y-6 sm:space-y-8 text-center">
                 <p>
-                  You have to manage golfers, sponsors, registration, volunteers, emails, payments, event details, and donor communication.
+                  You manage golfers, sponsors, registration, volunteers, emails, payments, event details, and donor communication.
                 </p>
                 <p>
-                  The marketing and admin is overwhelming.
+                  The marketing and admin work is overwhelming.
                 </p>
                 <p className="font-semibold text-[#131722] text-base sm:text-lg md:text-xl">
                   Fairway Fundraising takes that work off your plate.
