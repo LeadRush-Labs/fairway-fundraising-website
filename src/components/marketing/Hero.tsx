@@ -19,7 +19,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-[#5D5A6A] mb-6 sm:mb-8 leading-relaxed">
-            We help your tournament get more exposure, simplify registration, and run smoother without adding cost or work to your team.
+            We help your tournament get more exposure, run smoother, and raise more without adding cost or work to your team.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-6 sm:mb-8">
