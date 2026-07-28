@@ -36,7 +36,7 @@ export default function HowItWorks() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-10 sm:mb-12 md:mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-[#131722] mb-3 sm:mb-4">
-            Simple support. No upfront cost. No added complexity.
+            Simple support. No cost. No added complexity.
           </h2>
           <div className="w-16 sm:w-20 h-1 bg-[#1E8E3E] mx-auto"></div>
         </div>
