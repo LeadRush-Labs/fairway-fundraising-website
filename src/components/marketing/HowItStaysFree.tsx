@@ -19,7 +19,7 @@ export default function HowItStaysFree() {
 
         <div className="space-y-6 sm:space-y-8 max-w-2xl mx-auto text-center mb-10 sm:mb-12">
           <p className="text-base sm:text-lg md:text-xl text-[#131722] leading-relaxed">
-            We keep our support free by introducing the tournament to a small number of new local businesses that would not have heard about the event otherwise.
+            We keep our support free by introducing the tournament to local businesses that would not have heard about the event otherwise.
           </p>
           <p className="text-base sm:text-lg md:text-xl text-[#131722] leading-relaxed">
             We do not contact your existing sponsors, donors, or relationships.
