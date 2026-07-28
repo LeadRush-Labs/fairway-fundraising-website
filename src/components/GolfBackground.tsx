@@ -161,6 +161,3 @@ export default function GolfBackground({ color = '#1E8E3E', opacity = 0.13 }: Go
     </div>
   );
 }
-
-
-export default GolfBackground
