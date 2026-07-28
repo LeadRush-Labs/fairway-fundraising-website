@@ -25,7 +25,7 @@ export default function HowItStaysFree() {
             We do not contact your existing sponsors, donors, or relationships.
           </p>
           <p className="text-base sm:text-lg md:text-xl text-[#131722] leading-relaxed">
-            If a new business chooses to support the event, that support helps fund the marketing and event work we provide.
+            If a donor in our network chooses to support the event, that support helps fund the marketing and event work we provide.
           </p>
         </div>
 
