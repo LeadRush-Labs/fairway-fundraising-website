@@ -1,4 +1,5 @@
 import { CheckCircle2 } from 'lucide-react';
+import GolfBackground from '../GolfBackground';
 
 export default function WhoThisIsFor() {
   const fitFor = [
@@ -8,7 +9,8 @@ export default function WhoThisIsFor() {
 
   return (
     <section className="relative py-12 sm:py-16 md:py-20 bg-white overflow-hidden">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6">
+      <GolfBackground color="#1E8E3E" opacity={0.06} />
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-10 sm:mb-12 md:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#131722] mb-3 sm:mb-4">
             Built for charity tournaments that need more support, not more work.

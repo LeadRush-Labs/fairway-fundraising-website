@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
+import GolfBackground from '../GolfBackground';
 
 interface FAQItem {
   question: string;
@@ -42,6 +43,7 @@ export default function FAQ() {
 
   return (
     <section id="faq" className="relative bg-[#F5F5F7] py-12 sm:py-16 md:py-24 overflow-hidden">
+      <GolfBackground color="#1E8E3E" opacity={0.07} />
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#131722] text-center mb-10 sm:mb-12 md:mb-16">
           Frequently Asked Questions
