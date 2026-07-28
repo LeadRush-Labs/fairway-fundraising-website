@@ -12,7 +12,7 @@ const cards = [
     icon: ClipboardCheck,
     title: 'Registration Support',
     description: 'QR codes, registration links, golfer forms, payment links, and reminder communication.',
-    value: 'Golfers and sponsors can sign up in minutes instead of chasing you for details.',
+    value: 'Golfers and sponsors can sign up in minutes instead of following up for details.',
   },
   {
     icon: FileText,
