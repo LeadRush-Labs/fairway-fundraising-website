@@ -23,7 +23,7 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section id="how-it-works" className="relative py-10 sm:py-12 md:py-14 overflow-hidden">
+    <section className="relative py-10 sm:py-12 md:py-14 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
           src="https://images.pexels.com/photos/914682/pexels-photo-914682.jpeg?auto=compress&cs=tinysrgb&w=1600"
