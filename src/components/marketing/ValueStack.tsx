@@ -41,7 +41,7 @@ export default function ValueStack() {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#131722] mb-3 sm:mb-4">
             What your tournament can get at no cost
           </h2>
-          <p className="text-lg text-[#5D5A6A] mb-3 sm:mb-4">Possible support includes:</p>
+          <p className="text-lg text-[#5D5A6A] mb-3 sm:mb-4">Support includes:</p>
           <div className="w-16 sm:w-20 h-1 bg-[#1E8E3E] mx-auto"></div>
         </div>
 
