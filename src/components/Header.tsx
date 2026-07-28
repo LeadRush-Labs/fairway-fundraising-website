@@ -4,7 +4,6 @@ import { Flag } from 'lucide-react';
 export default function Header() {
   const location = useLocation();
   const isHome = location.pathname === '/';
-  const isSponsorships = location.pathname === '/get-sponsorships';
 
   return (
     <header className="bg-white border-b border-gray-200">
@@ -20,21 +19,6 @@ export default function Header() {
               <>
                 <a href="#how-it-works" className="hover:text-[#131722] transition-colors">
                   How It Works
-                </a>
-                <a href="#sponsors" className="hover:text-[#131722] transition-colors">
-                  Sponsors
-                </a>
-                <a href="#faq" className="hover:text-[#131722] transition-colors">
-                  FAQ
-                </a>
-              </>
-            ) : isSponsorships ? (
-              <>
-                <a href="#how-it-works" className="hover:text-[#131722] transition-colors">
-                  How It Works
-                </a>
-                <a href="#sponsors" className="hover:text-[#131722] transition-colors">
-                  Sponsors
                 </a>
                 <a href="#faq" className="hover:text-[#131722] transition-colors">
                   FAQ
