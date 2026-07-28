@@ -20,7 +20,7 @@ export default function Problem() {
                   The tournament matters, but the marketing and admin work can quickly become overwhelming.
                 </p>
                 <p className="font-semibold text-[#131722] text-base sm:text-lg md:text-xl">
-                  Fairway Fundraising helps take that work off your plate.
+                  Fairway Fundraising takes that work off your plate.
                 </p>
               </div>
             </div>
