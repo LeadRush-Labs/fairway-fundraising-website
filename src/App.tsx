@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import GetSponsorships from './pages/GetSponsorships';
 import About from './components/About';
 import WhatToExpect from './pages/WhatToExpect';
+import Examples from './pages/Examples';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/get-sponsorships" element={<GetSponsorships />} />
           <Route path="/about" element={<About />} />
           <Route path="/what-to-expect" element={<WhatToExpect />} />
+          <Route path="/examples" element={<Examples />} />
         </Routes>
         <Footer />
       </div>

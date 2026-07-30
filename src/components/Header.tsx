@@ -32,6 +32,9 @@ export default function Header() {
             <Link to="/about" className="hover:text-[#131722] transition-colors">
               About
             </Link>
+            <Link to="/examples" className="hover:text-[#131722] transition-colors">
+              Examples
+            </Link>
           </div>
 
           <button
